@@ -10,11 +10,11 @@ public class DesafioCalculadora {
 		System.out.println("Informa o primeiro número: ");
 		double num1 = entrada.nextDouble();
 
-		System.out.println("Informa o segundo número: ");
-		double num2 = entrada.nextDouble();
-
 		System.out.println("Informa o operador: ");
 		String op = entrada.next();
+
+		System.out.println("Informa o segundo número: ");
+		double num2 = entrada.nextDouble();
 
 		// Lógica
 		double resultado = "+".equals(op) ? num1 + num2 : 0;
