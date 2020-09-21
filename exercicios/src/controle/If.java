@@ -9,13 +9,17 @@ public class If {
 
 		System.out.print("Informe a média: ");
 		double media = entrada.nextDouble();
-
+		
+		//"if" utilizada como condição para execução de fluxo
+		//Exemplo: "SE x for falso, execute Y"
 		if (media <= 10 && media >= 7.0) {
 			System.out.println("Aprovado, Parabéns.");
 			
 
 		}
-
+			//Exemplo de uso da condição
+			//Se a média for menor que sete e maior que 4.5 
+			//imprima na tela a msg "Recuperação"
 		if (media < 7 && media >= 4.5) {
 			System.out.println("Recuperação");
 
